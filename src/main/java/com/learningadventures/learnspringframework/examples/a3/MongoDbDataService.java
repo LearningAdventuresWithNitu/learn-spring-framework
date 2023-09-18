@@ -1,9 +1,9 @@
 package com.learningadventures.learnspringframework.examples.a3;
 
 import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 @Primary
 public class MongoDbDataService implements DataService {
 
